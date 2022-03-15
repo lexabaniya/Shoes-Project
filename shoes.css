@@ -1,0 +1,43 @@
+h1{
+    color:red;
+     text-align: center;
+     width: 70%;
+    font-weight: 800;
+    font-size:30px ;
+    font-family: Arial;
+
+}
+
+.searchContainer{
+    display: flex;
+}
+
+.searchForm{
+    margin-left: auto;
+}
+
+.webSiteName{
+    margin:0px;
+}
+p1{
+   line-height:1.5;
+   font-family: Arial;
+   font-size: medium;
+   font-style:normal;
+
+}
+section{
+    color: rgb(196, 142, 196);
+    font-family: monospace;
+    font-style: italic;
+    font-size:1.2em;
+}
+#signin{
+    color: plum;
+}
+.table{
+    color: rgb(196, 142, 196);
+    text-decoration: underline;
+    font-size: larger;
+  
+}
