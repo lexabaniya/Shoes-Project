@@ -27,17 +27,23 @@ p1{
 
 }
 section{
-    color: rgb(196, 142, 196);
+    color: rgb(112, 5, 112);
     font-family: monospace;
-    font-style: italic;
+    font-style:oblique 40deg;
     font-size:1.2em;
 }
 #signin{
     color: plum;
 }
-.table{
-    color: rgb(196, 142, 196);
-    text-decoration: underline;
-    font-size: larger;
-  
+#labelcontainer{
+    padding-bottom:5% ;
+    
+}
+
+#customerform{
+   background-color: bisque;
+   margin: auto;
+   
+
+
 }

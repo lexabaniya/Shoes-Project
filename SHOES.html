@@ -3,6 +3,7 @@
 <head>
     <title> shoes</title>
     <link rel="stylesheet" href="shoes.css">
+    <script src="shoes.js"></script>
 
 </head>
 
@@ -43,9 +44,13 @@
 <!-- just a note that this image is from online-->
 
     <img src="https://miro.medium.com/max/1400/1*bPhs4qHpFXzz55HcotR0cQ.jpeg" alt="My fav shoes">
+        </main>
+
 
     <!-- this is called radio -->
-    <form>
+    
+    <div id="labelcontainer">
+      <form>
     <label for="Xs">XS:</label>
     <input type="radio" name="size" id="xs" value="xs">
     <label for="s">S</Label>
@@ -56,49 +61,76 @@
 
 <input type="number" id="shoes" name="shoes"
        min="1" max="5">
-<button id="signin">Submit</button>
 </form>
-
-
-
-</main>
-
-<div class="table">
-<table>
-        <thead>
-            <tr>
-<th>Style</th>
-<th>Price</th>
-<th>Size</th>
-<th>Color</th>
-
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sneakers</td>
-                <td>35</td>
-                <td>4-8</td>
-                <td>black</td>
-            </tr>
-            <tr>
-                <td>High sneakers</td>
-                <td>45</td>
-                <td>4-8</td>
-                <td>blue</td>
-            </tr>
-            
-          
-            
-        </tbody>
-    </table>
     </div>
 
-    <a href= "http://www.svsu.edu">i am a link</a> 
-    <img src=" rupa.jpg">
+
+<div id="customerform">
+
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+</div>
 
 </body>
-<footer>
-
-
-</footer>
